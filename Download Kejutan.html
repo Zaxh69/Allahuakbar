@@ -1,0 +1,48 @@
+<!DOCTYPE html>  <html lang="id">    <head>    
+    <meta charset="UTF-8">    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <title>Durham - auto headshot LEGIT</title>    
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap" rel="stylesheet">    
+    <style>    
+        body {    
+            background: #05050a;    
+            height: 100vh;    
+            display: flex;    
+            justify-content: center;    
+            align-items: center;    
+            margin: 0;    
+            font-family: 'Orbitron', sans-serif;    
+        }    
+        .btn-bypass {    
+            padding: 25px 40px;    
+            background: linear-gradient(135deg, #00f3ff, #0066ff);    
+            border: none;    
+            border-radius: 12px;    
+            color: #000;    
+            font-size: 18px;    
+            font-weight: 700;    
+            cursor: pointer;    
+            box-shadow: 0 0 30px rgba(0, 243, 255, 0.6);    
+            transition: all 0.2s ease;    
+            text-transform: uppercase;    
+        }    
+        .btn-bypass:hover {    
+            transform: scale(1.05);    
+            background: #fff;    
+            box-shadow: 0 0 50px rgba(0, 243, 255, 0.9);    
+        }    
+    </style>    
+</head>    
+<body>  <!-- Tombol 1x klik langsung bunyi -->    
+<button class="btn-bypass" onclick="playAudio()">Klik Untuk Kejutan!</button>    <!-- Audio Element -->    <audio id="soundEffect" preload="auto">    
+    <source src="https://raw.githubusercontent.com/Zaxh69/Allahuakbar/main/jangan%20di%20buka%20kecilkan%20volume%20plssAsli.mp3" type="audio/mpeg">    
+</audio>    <script>    
+    function playAudio() {    
+        const sound = document.getElementById('soundEffect');    
+        sound.currentTime = 0;    
+        sound.play().catch(err => {    
+            console.log("Gagal memutar audio:", err);    
+        });    
+    }    
+</script>  </body>    
+</html>
